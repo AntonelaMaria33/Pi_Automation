@@ -1,7 +1,9 @@
 {
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.40.2",
-    "cypress": "^13.13.0"
+    "cypress": "^13.13.0",
+    "jasmine-core": "^5.1.2",
+    "jasmine-junit-reporter": "^0.0.2"
   },
   "name": "pi_automation",
   "version": "1.0.0",
@@ -171,9 +173,9 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:run":"npx cypress run",
-    "cy:run:chtome":"npx cypress run --browser chrome"
+    "test": "node run-tests.js",
+    "cy:run": "npx cypress run",
+    "cy:run:chtome": "npx cypress run --browser chrome"
   },
   "keywords": [],
   "author": "",
