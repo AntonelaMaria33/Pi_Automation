@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="60.847" tests="7" failures="2">
+  <testsuite name="Root Suite" timestamp="2024-07-11T21:54:14" tests="0" file="cypress\e2e\tests\register.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="User Registration" timestamp="2024-07-11T21:54:14" tests="7" time="60.838" failures="2">
+    <testcase name="User Registration Registro Correcto con Datos Mínimos" time="0.000" classname="Registro Correcto con Datos Mínimos">
+      <failure message="Timed out retrying after 20000ms: expected &apos;https://pushing-it.vercel.app/&apos; to include &apos;/home&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 20000ms: expected 'https://pushing-it.vercel.app/' to include '/home'
+    at Context.eval (webpack://pi_automation/./cypress/e2e/tests/register.cy.js:17:35)]]></failure>
+    </testcase>
+    <testcase name="User Registration Registro Correcto con Año de Nacimiento Reciente" time="0.000" classname="Registro Correcto con Año de Nacimiento Reciente">
+      <failure message="Timed out retrying after 20000ms: expected &apos;https://pushing-it.vercel.app/&apos; to include &apos;/home&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 20000ms: expected 'https://pushing-it.vercel.app/' to include '/home'
+    at Context.eval (webpack://pi_automation/./cypress/e2e/tests/register.cy.js:29:35)]]></failure>
+    </testcase>
+    <testcase name="User Registration Registro Correcto con Año de Nacimiento Antiguo" time="10.307" classname="Registro Correcto con Año de Nacimiento Antiguo">
+    </testcase>
+    <testcase name="User Registration Validar mensaje de error con campos user Vacío" time="0.781" classname="Validar mensaje de error con campos user Vacío">
+    </testcase>
+    <testcase name="User Registration Validar mensaje de error con campos Password Vacío" time="0.930" classname="Validar mensaje de error con campos Password Vacío">
+    </testcase>
+    <testcase name="User Registration Validar Contraseña Sin Caracter Especial" time="1.617" classname="Validar Contraseña Sin Caracter Especial">
+    </testcase>
+    <testcase name="User Registration Validar Género no Seleccionado" time="1.548" classname="Validar Género no Seleccionado">
+    </testcase>
+  </testsuite>
+</testsuites>

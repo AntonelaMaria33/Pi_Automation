@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="73.727" tests="7" failures="3">
+  <testsuite name="Root Suite" timestamp="2024-07-11T21:06:02" tests="0" file="cypress\e2e\tests\register.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="User Registration" timestamp="2024-07-11T21:06:02" tests="7" time="73.712" failures="3">
+    <testcase name="User Registration Registro Correcto con Datos Mínimos" time="0.000" classname="Registro Correcto con Datos Mínimos">
+      <failure message="Timed out retrying after 20000ms: expected &apos;https://pushing-it.vercel.app/&apos; to include &apos;/home&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 20000ms: expected 'https://pushing-it.vercel.app/' to include '/home'
+    at Context.eval (webpack://pi_automation/./cypress/e2e/tests/register.cy.js:17:35)]]></failure>
+    </testcase>
+    <testcase name="User Registration Registro Correcto con Año de Nacimiento Reciente" time="0.000" classname="Registro Correcto con Año de Nacimiento Reciente">
+      <failure message="Timed out retrying after 20000ms: expected &apos;https://pushing-it.vercel.app/&apos; to include &apos;/home&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 20000ms: expected 'https://pushing-it.vercel.app/' to include '/home'
+    at Context.eval (webpack://pi_automation/./cypress/e2e/tests/register.cy.js:29:35)]]></failure>
+    </testcase>
+    <testcase name="User Registration Registro Correcto con Año de Nacimiento Antiguo" time="0.000" classname="Registro Correcto con Año de Nacimiento Antiguo">
+      <failure message="Timed out retrying after 20000ms: expected &apos;https://pushing-it.vercel.app/&apos; to include &apos;/home&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 20000ms: expected 'https://pushing-it.vercel.app/' to include '/home'
+    at Context.eval (webpack://pi_automation/./cypress/e2e/tests/register.cy.js:41:35)]]></failure>
+    </testcase>
+    <testcase name="User Registration Validar mensaje de error con campos user Vacío" time="0.772" classname="Validar mensaje de error con campos user Vacío">
+    </testcase>
+    <testcase name="User Registration Validar mensaje de error con campos Password Vacío" time="1.190" classname="Validar mensaje de error con campos Password Vacío">
+    </testcase>
+    <testcase name="User Registration Validar Contraseña Sin Caracter Especial" time="2.188" classname="Validar Contraseña Sin Caracter Especial">
+    </testcase>
+    <testcase name="User Registration Validar Género no Seleccionado" time="1.763" classname="Validar Género no Seleccionado">
+    </testcase>
+  </testsuite>
+</testsuites>
