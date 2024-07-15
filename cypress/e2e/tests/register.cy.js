@@ -1,3 +1,5 @@
+const { expect } = require('chai');
+const allure = require('allure-mocha/runtime');
 import RegisterPage from '../pages/RegisterPage';
 
 describe('User Registration', () => {

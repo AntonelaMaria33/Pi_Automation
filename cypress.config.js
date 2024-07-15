@@ -1,8 +1,11 @@
+const allureWriter = require('@shelex/cypress-allure-plugin/writer');
+
 module.exports = {
   e2e: {
     baseUrl: 'https://pushing-it.vercel.app',
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      allureWriter(on, config);
+      return config;
     },
     reporter: 'junit',
     reporterOptions: {
