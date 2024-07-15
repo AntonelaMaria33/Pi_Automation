@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jul 15 20:47:34 ART 2024","Mon Jul 15 20:47:35 ART 2024","1061","","User Registration","","Validar mensaje de error con campos Password Vacío","","User Registration Validar mensaje de error con campos Password Vacío",""
+"passed","Mon Jul 15 20:47:34 ART 2024","Mon Jul 15 20:47:35 ART 2024","1718","","User Registration","","Validar Género no Seleccionado","","User Registration Validar Género no Seleccionado",""
+"passed","Mon Jul 15 20:47:34 ART 2024","Mon Jul 15 20:47:34 ART 2024","557","","User Registration","","Validar mensaje de error con campos user Vacío","","User Registration Validar mensaje de error con campos user Vacío",""
+"passed","Mon Jul 15 20:47:34 ART 2024","Mon Jul 15 20:47:36 ART 2024","2663","","User Registration","","Registro Correcto con Año de Nacimiento Antiguo","","User Registration Registro Correcto con Año de Nacimiento Antiguo",""
+"passed","Mon Jul 15 20:47:34 ART 2024","Mon Jul 15 20:47:38 ART 2024","4315","","User Registration","","Registro Correcto con Datos Mínimos","","User Registration Registro Correcto con Datos Mínimos",""
+"passed","Mon Jul 15 20:47:34 ART 2024","Mon Jul 15 20:47:35 ART 2024","1666","","User Registration","","Validar Contraseña Sin Caracter Especial","","User Registration Validar Contraseña Sin Caracter Especial",""
+"passed","Mon Jul 15 20:47:34 ART 2024","Mon Jul 15 20:47:36 ART 2024","2925","","User Registration","","Registro Correcto con Año de Nacimiento Reciente","","User Registration Registro Correcto con Año de Nacimiento Reciente",""

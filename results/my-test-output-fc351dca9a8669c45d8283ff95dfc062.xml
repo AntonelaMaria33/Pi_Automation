@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.371" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-07-15T20:47:34" tests="0" file="cypress\e2e\tests\register.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="User Registration" timestamp="2024-07-15T20:47:34" tests="7" time="15.363" failures="0">
+    <testcase name="User Registration Registro Correcto con Datos Mínimos" time="4.315" classname="Registro Correcto con Datos Mínimos">
+    </testcase>
+    <testcase name="User Registration Registro Correcto con Año de Nacimiento Reciente" time="2.925" classname="Registro Correcto con Año de Nacimiento Reciente">
+    </testcase>
+    <testcase name="User Registration Registro Correcto con Año de Nacimiento Antiguo" time="2.663" classname="Registro Correcto con Año de Nacimiento Antiguo">
+    </testcase>
+    <testcase name="User Registration Validar mensaje de error con campos user Vacío" time="0.557" classname="Validar mensaje de error con campos user Vacío">
+    </testcase>
+    <testcase name="User Registration Validar mensaje de error con campos Password Vacío" time="1.061" classname="Validar mensaje de error con campos Password Vacío">
+    </testcase>
+    <testcase name="User Registration Validar Contraseña Sin Caracter Especial" time="1.666" classname="Validar Contraseña Sin Caracter Especial">
+    </testcase>
+    <testcase name="User Registration Validar Género no Seleccionado" time="1.718" classname="Validar Género no Seleccionado">
+    </testcase>
+  </testsuite>
+</testsuites>
